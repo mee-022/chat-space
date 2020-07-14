@@ -1,0 +1,34 @@
+.chat-main
+  .main__header
+    .left-header
+      .left-header__group
+        米民
+      .menber-list
+        Menber:mee
+    .right-header
+      .right-header__content
+        = link_to "#", class: "right-header__content__btn" do
+          Edit
+  .chat-main__message
+    .chat-info
+      .chat-info__user
+        mee
+      .chat-info__date
+        2020/07/6(月)
+    .chat-message
+      感電 配信開始
+    .chat-info
+      .chat-info__user
+        mee
+      .chat-info__date
+        2020/07/6(月)
+    .chat-message
+      感電 配信開始
+  .chat-main__footer
+    %form.new-massage
+      .input-box
+        %input{type: "text", class: "input-box__text", placeholder: "type a message"}
+        %label{class: "input-box__image"}
+          = icon('fas', 'image')
+          %input{type: "file", class: "input-box__image__file"}
+      %input{type: "submit", value: "Send", class: "submit-btn"}
