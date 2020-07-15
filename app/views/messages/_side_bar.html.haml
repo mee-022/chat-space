@@ -2,11 +2,11 @@
   .side-bar__header
     .top-items
       .top-items__name
-        米津玄師
+        = current_user.name
       .top-items__icons
         = link_to "#", class: "top-items__btn" do
           = icon('far', 'edit')
-        = link_to "#", class: "top-items__btn" do
+        = link_to edit_user_path(current_user), class: "top-items__btn" do
           = icon('fas', 'cog')
   .side-bar__main
     .group
