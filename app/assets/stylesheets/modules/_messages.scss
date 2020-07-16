@@ -49,22 +49,12 @@
           margin-bottom: 5px;
           color: #ffffff;
           font-size: 15px;
+          text-decoration: none;
         }
         &__message{
           color: #ffffff;
           font-size: 11px;
-        }
-      }
-      .group{
-        padding: 20px 20px 40px 20px;
-        &__name{
-          margin-bottom: 5px;
-          color: #ffffff;
-          font-size: 15px;
-        }
-        &__message{
-          color: #ffffff;
-          font-size: 11px;
+          text-decoration: none;
         }
       }
     }
